@@ -1,12 +1,10 @@
-1 Django — Python dasturlash tilida yozilgan, veb-ilovalar yaratish uchun mo‘ljallangan iweb-frameworkdir. U tez va xavfsiz ilovalar yaratishni osonlashtiradi. Django dinamik veb-saytlar, ma'lumotlar bazalari bilan ishlash, foydalanuvchilarni autentifikatsiya qilish va boshqa ko‘plab funktsiyalarni osonlashtiradi. U MVC (Model-View-Controller) yoki MTV (Model-Template-View) dizayn patterndan foydalanadi.
+1 Django — Python dasturlash tilida yozilgan, veb-ilovalar yaratish uchun mo‘ljallangan iweb-frameworkdir. U tez va xavfsiz .
 
-2. Bootstrap yordamida Web-sayt yaratishda asosiy jarayonlar qanday amalga oshiriladi?
-   Bootstrap yordamida veb-sayt yaratishda quyidagi asosiy jarayonlar amalga oshiriladi:
-   Bootstrap kutubxonasini qo‘shish: Bootstrap CSS va JS fayllarini HTML sahifaga qo‘shish.
-   Struktura yaratish: Bitta sahifa va responsivli dizayn uchun tizimli gred tuzish.
-   Komponentlar qo‘llanishi: Tugmalar, navigatsiya, modallar va boshqalarni yaratish uchun Bootstrap komponentlaridan foydalanish.
-  Stil va dizayn: Saytni yanada estetik va responsiv qilish uchun CSS yordamida o‘zgartirishlar kiritish.
+2   Bootstrap CSS va JS fayllarini HTML sahifaga qo‘shish.
+Bitta sahifa va responsivli dizayn uchun tizimli gred tuzish.
+Tugmalar, navigatsiya, modallar va boshqalarni yaratish uchun Bootstrap komponentlaridan foydalanish.
+Saytni yanada estetik va responsiv qilish uchun CSS yordamida o‘zgartirishlar kiritish.
 
-3. startapp buyrug‘i Django’da yangi ilova (app) yaratish uchun ishlatiladi. Bu buyruq yordamida Django avtomatik ravishda kerakli fayllar va papkalar tuzilmasini yaratadi (masalan, `models.py`, `views.py`, `urls.py` va boshqalar). Har bir app alohida xususiyatlarga ega bo‘lib, loyiha tuzilmasida mustaqil ishlaydi, ammo birgalikda ishlashlari mumkin.
+3. startapp buyrug‘i Django’da yangi ilova (app) yaratish uchun ishlatiladi. Bu buyruq yordamida Django avtomatik ravishda kerakli fayllar va papkalar tuzilmasini yaratadi (masalan, `models.py`, `views.py`, `urls.py` va boshqalar).
 
-4.    Django admin paneli — bu Django-da avtomatik tarzda yaratiladigan va administratorlarga ma'lumotlar bazasi bilan ishlash imkonini beradigan veb-interfeysdir. Admin paneli yordamida foydalanuvchilarni, mahsulotlarni, xabarlarni va boshqa ma'lumotlarni boshqarish mumkin. Admin panelini ishlatish uchun, `admin.py` faylida modelni ro‘yxatga olish kerak. Django admin paneli xavfsiz va qulay boshqaruv imkoniyatlari taqdim etadi.
+4.  Django admin paneli , bu Django-da avtomatik tarzda yaratiladigan va administratorlarga ma'lumotlar bazasi bilan ishlash imkonini beradigan veb-interfeysdir. Admin paneli yordamida foydalanuvchilarni, mahsulotlarni, xabarlarni va boshqa ma'lumotlarni boshqarish mumkin.
